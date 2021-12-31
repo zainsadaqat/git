@@ -2,7 +2,20 @@
 
 # How to Undo Mistakes in Git using Command Line
 
-1. Discarding all local changes in a file
+### 1. Discarding all local changes in a file
+
+> You make some changes in a local file and haven't make a commit yet and noticed it's not a better version and you want to go to the last commited version.
+
+`git restore <file_name>`
+
+Note: Discarding uncommitted local changes can not be undone!
+
+### 2. Restoring deleted files
+
+> You not only make some changes but also deleted that file and you want that file back
+
+`git restore <file_name>
+
 
 
 
