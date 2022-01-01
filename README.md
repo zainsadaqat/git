@@ -35,6 +35,22 @@ Note: Please be careful with this command. Discarding uncommitted local changes 
 
 > Note: --amend rewrites history! never change history for commits that have already been pushed to a remote repository!
 
+### 6. Reverting a commit in the middle
+
+`git revert <commit_hash>`
+
+git revert creates a new commit that revert the effect of specified commit
+
+### 7. Resetting to an old revision
+
+`git reset --hard <commit_hash>`
+
+git reset sets your HEAD pointer to an older revision. Commits after this revision appears to be undone!
+
+### 8. Resetting a file to an older revision
+
+`git restore --source <commit_hash> <file_name>
+
 
 
 
