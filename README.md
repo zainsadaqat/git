@@ -49,7 +49,7 @@ git reset sets your HEAD pointer to an older revision. Commits after this revisi
 
 ### 8. Resetting a file to an older revision
 
-`git restore --source <commit_hash> <file_name>
+`git restore --source <commit_hash> <file_name>`
 
 
 
