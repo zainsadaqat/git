@@ -67,7 +67,7 @@ if you reset your HEAD to an old revision and all the commits after that revisio
 
 ### 11. Moving commit to a new branch
 
-when You committed on main or develop branch directly. Move to the new branch first and reset the head by 1
+when You committed on main or develop branch directly. Move to the new branch first and move HEAD 1 commit behind.
 
 `git branch feature/branch_name`
 
