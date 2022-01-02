@@ -65,6 +65,14 @@ if you reset your HEAD to an old revision and all the commits after that revisio
 
 `git branch branch_name <commit_hash>`
 
+### 11. Moving commit to a new branch
+
+when You committed on main or develop branch directly. Move to the new branch first and reset the head by 1
+
+`git branch feature/branch_name`
+
+`gir reset HEAD~1 --hard`
+
 ## Author
 
 👤 **Zain Sadaqat**
