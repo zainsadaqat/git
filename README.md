@@ -51,13 +51,19 @@ git reset sets your HEAD pointer to an older revision. Commits after this revisi
 
 `git restore --source <commit_hash> <file_name>`
 
-### 9. Reflog
+### 9. Reflog - Recovering deleted commits
 
 if you reset your HEAD to an old revision and all the commits after that revision will be gone. So if you think that was an accident you can get that back.
 
 `git reflog`
 
-`git reset branch_name <commit_hash>`
+`git branch branch_name <commit_hash>`
+
+### 10. Reflog - Recovering deleted branch
+
+`git reflog`
+
+`git branch branch_name <commit_hash>`
 
 ## Author
 
