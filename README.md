@@ -85,6 +85,24 @@ In this case feature branch is already present.
 
 `git reset --hard HEAD~1`
 
+## Interactive Rebase
+
+### 13. Edit old commit message
+
+First check how many commits you want to go back. if it was the last commit then you can amend it easily by amend command. if not then:
+
+`git rebase -i HEAD~COMMIT_NUMBER`
+
+An editor window will be opened. Commits will be shown in reverse order means last one will be the lastest commit.
+
+replace `pick` with `reword` and edit the commit message and then save the file.
+
+### 14. Deleting old commit message
+
+`git rebase -i HEAD~COMMIT_NUMBER`
+
+replace `pick` word with `drop`
+
 ## Author
 
 👤 **Zain Sadaqat**
