@@ -73,6 +73,18 @@ when You committed on main or develop branch directly. Move to the new branch fi
 
 `gir reset HEAD~1 --hard`
 
+### 12. Moving commit to a different branch
+
+In this case feature branch is already present.
+
+`git checkout feature_branch`
+
+`git cherry-pick <SHA>`
+
+`git checkout main`
+
+`git reset --hard HEAD~1`
+
 ## Author
 
 👤 **Zain Sadaqat**
