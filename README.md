@@ -115,6 +115,17 @@ replace `pick` word with `drop`
 
 `git rebase -i --autosquash HEAD~4`
 
+### 17. Splitting / Editing an old commit
+
+
+
+## Caution when rewriting the history
+
+- Amending commits
+- Rebase
+- Interactive Rebase 
+- Reset
+
 
 ## Author
 
