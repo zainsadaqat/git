@@ -109,6 +109,12 @@ replace `pick` word with `drop`
 
 `pick` with `squash` and it will combine the squash and the commit above this squash
 
+### 16. Adding a change to an old commit
+
+`git commit --fixup <commit_hash>`
+
+`git rebase -i --autosquash HEAD~4`
+
 
 ## Author
 
