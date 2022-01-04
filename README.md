@@ -103,6 +103,13 @@ replace `pick` with `reword` and edit the commit message and then save the file.
 
 replace `pick` word with `drop`
 
+### 15. Squashing multiple commits into one
+
+`git rebase -i HEAD~3`
+
+`pick` with `squash` and it will combine the squash and the commit above this squash
+
+
 ## Author
 
 👤 **Zain Sadaqat**
